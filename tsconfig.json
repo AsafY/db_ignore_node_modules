@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "inlineSources": true,
+    "outDir": "./dist",
+    "noImplicitAny": false,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "*.ts",
+    "package.json",
+    "package-lock.json",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

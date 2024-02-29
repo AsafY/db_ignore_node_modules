@@ -1,0 +1,21 @@
+{
+  "name": "dropbox_ignore",
+  "version": "1.0.0",
+  "description": "Set DropBox to recursively ignore all node_modules dirs.",
+  "author": "Asaf Yarkoni",
+  "main": "dist/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "private": false,
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.22"
+  }
+}
