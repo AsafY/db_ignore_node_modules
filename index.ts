@@ -3,8 +3,6 @@ import path from "path";
 import {readdir, stat as fsStat} from 'fs/promises'
 import assert from "node:assert";
 
-export const x = 1;
-
 const dropboxRoot = process.argv[2];
 assert(dropboxRoot, `dropbox root cannot be null`);
 
