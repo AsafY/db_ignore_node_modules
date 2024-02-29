@@ -4,6 +4,8 @@ A quick & dirty solution to
 set DropBox to recursively ignore all node_modules dirs.
 ```
 
+[![Build(NodeJS)](https://github.com/CryptoHubTeam/evm-indexer/actions/workflows/build.yml/badge.svg)](https://github.com/AsafY/db_ignore_node_modules/actions/workflows/build.yml)
+
 including node_modules in DropBox backup takes unneeded space and causes all sorts of issues with node debugging
 
 Dropbox does not allow you to set a global ignore pattern.
